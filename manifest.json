@@ -1,0 +1,18 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "自定义重定向特定的 URL ，例如有些引用了 Google 的 js 文件被 GFW 墙了，而导致出问题了，可以把被墙的文件重定向到国内的 URL",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnCVZwrbGY9kZEGYcr6jhL4rHUHHOWdmj9IYX6SKEBXf/NFRAedBnBfsOJQamDBMkYiXpSHeaXUiBbZC1Ghrbm6WcENsgTSNomxX9qA0D6xahRLakGJdCm9yKIWx3a9rA6Zj8caz2z5NHFLB0OwoK2Nmg1VCmzvYFK9BG4SFx4gJtCdYraiVr4LuO+gAGAOnAA+8dc3IxfLAgYsh8j6PNPin68dcuVcqOs8R4rkBl4wnAm8pTgZ+CgaU03La9AZH/q+GrzB+BpxVWHgxS0w6LkpJt4HIOqZlNnpF7NAyjXTIGDytQ9ZtRheSJO7T3Rd8AfA3szj5gCGFu0JZJyoaBXQIDAQAB",
+   "manifest_version": 2,
+   "name": "URL 重定向扩展插件",
+   "options_page": "选项.html",
+   "permissions": [ "webRequest", "webRequestBlocking", "*://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
